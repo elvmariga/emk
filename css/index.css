@@ -34,6 +34,25 @@ h3 {
   margin: 0px auto;
 }
 
+.commited {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.commited i {
+  color: #377632;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .cont {
@@ -187,25 +206,6 @@ h3 {
   color: #377632;
 }
 
-.main .content .commited {
-  margin-bottom: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 32px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 29px;
-}
-
-.main .content .commited i {
-  color: #377632;
-}
-
 .main .content .services {
   margin-bottom: 120px;
 }
@@ -323,9 +323,9 @@ h3 {
 }
 
 .main .footer {
-  margin-top: 100px;
+  margin-top: 0px;
+  padding-top: 20px;
   text-align: center;
-  padding-top: 300px;
 }
 
 .main .footer .footer-content {
@@ -356,5 +356,89 @@ h3 {
 .main .footer .copy {
   text-align: center;
   color: white;
+}
+
+.who-we-are {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minMax(500px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minMax(500px, 1fr));
+}
+
+.who-we-are .img-about {
+  width: 400px;
+}
+
+.who-we-are .us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 25px;
+}
+
+.who-we-are .us .paragraph-1 {
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.who-we-are .us .paragraph-2 {
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.values {
+  margin-top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minMax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minMax(300px, 1fr));
+  gap: 32px;
+}
+
+.values .value-tab {
+  padding: 32px;
+}
+
+.values .value-tab .value-tab-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  gap: 16px;
+}
+
+.values .value-tab .value-tab-in .icon {
+  width: 90px;
+}
+
+.why-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.deliver {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: rgba(0, 0, 0, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=index.css.map */
