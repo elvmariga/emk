@@ -414,3 +414,64 @@ color: rgba(0, 0, 0, 0.9);
     justify-content: center;
     margin-bottom: 0px;
   }
+//   contact page
+.remarks{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+        .any{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    .any-img{
+        img{
+            width: 374px;
+        }
+        padding-top: 100px;
+        display: flex;
+        justify-content: start;
+        margin-left: 64px;
+
+        
+    };
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(500px, 1fr));
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        
+
+        .input{
+            padding: 8px;
+            margin-top: 16px;
+        }
+        .submit{
+            background-color: #377632;
+            color:white;
+            align-items: center;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 32px;
+            width: 40% ;
+            align-self: center;
+        }
+    }
+    .contact{
+        background-color: #377632;
+        border-radius: 20px;
+        width: 80%;
+        align-content: center;
+        padding: 16px;
+        p{
+            color: #eae4e4;
+        }
+    }
+    }
+    
