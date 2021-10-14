@@ -158,7 +158,8 @@ h3 {
 }
 
 .main .header .logo {
-  padding: 5px;
+  padding: 4px;
+  margin-left: 16px;
 }
 
 .main .header .nav-bar {
@@ -186,7 +187,7 @@ h3 {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  padding: 20px;
+  padding: 16px;
   color: #FFFFFF;
 }
 
@@ -381,6 +382,11 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   line-height: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .who-we-are .us .paragraph-1 {
@@ -391,6 +397,14 @@ h3 {
 .who-we-are .us .paragraph-2 {
   margin-top: 0px;
   color: rgba(0, 0, 0, 0.9);
+}
+
+.we {
+  line-height: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .values {
@@ -404,6 +418,11 @@ h3 {
 
 .values .value-tab {
   padding: 32px;
+  line-height: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .values .value-tab .value-tab-in {
